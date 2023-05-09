@@ -1,5 +1,5 @@
 body {
-    background-image: url("bg.jpg");
+    background-image: urlurl(images/bg.jpg);
     background-repeat: repeat-y;
     background-size: cover;
 }
