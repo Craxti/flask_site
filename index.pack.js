@@ -504,7 +504,7 @@ function About() {
         _react2.default.createElement(
             "p",
             { className: "details-text" },
-            "I'm a software developer with 10 years of experience in the software industry. I have experience in fullstack development, backend Java development, QA engineering, and Scrum Mastery."
+            "I'm a python developer with 3 years of experience in the software industry. My expertise includes web application development, process automation and scalable systems development. I have experience with Python, Django, Flask, PostgreSQL, MySQL, MongoDB, Docker, AWS and many other technologies. In addition, I am constantly learning and following new trends and developments in technology. I believe that learning and skill development are key success factors in the IT industry."
         )
     );
 }
@@ -624,7 +624,7 @@ function Interests() {
         _react2.default.createElement(
             "p",
             { className: "details-text" },
-            "Reading. Hiking. Backgammon. Fishing."
+            "Reading. Hiking. Drawing. ML."
         )
     );
 }
