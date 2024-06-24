@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('https://s0.rbk.ru/v6_top_pics/media/img/0/53/756564183739530.jpg') center/cover fixed;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            text-align: center;
+            overflow: hidden;
+        }
+        h1 {
+            color: #007bff;
+            margin-bottom: 10px;
+            font-size: 36px;
+        }
+        .description {
+            margin-top: 20px;
+            line-height: 1.6;
+            font-size: 18px;
+            color: #333;
+            text-align: justify;
+        }
+        .experience {
+            margin-top: 30px;
+            text-align: left;
+        }
+        .experience h2 {
+            color: #007bff;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .experience ul {
+            padding: 0;
+            margin-top: 10px;
+        }
+        .experience ul li {
+            position: relative;
+            font-size: 16px;
+            color: #555;
+            cursor: pointer;
+            transition: color 0.3s ease;
+            margin-bottom: 12px;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        .experience ul li::before {
+            content: "\2022";
+            color: #007bff;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: absolute;
+            left: 0;
+            top: 1px;
+            transition: color 0.3s ease;
+        }
+        .experience ul li:hover {
+            color: #007bff;
+        }
+        .experience ul li p {
+            display: none;
+            margin-top: 10px;
+            padding-left: 20px;
+            text-align: justify;
+        }
+        .experience ul li:hover::before {
+            color: #007bff;
+        }
+        .contact-info {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .contact-item {
+            margin: 10px;
+        }
+        .contact-info a.button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .contact-info a.button:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .technologies {
+            margin-top: 30px;
+            text-align: left;
+        }
+        .technologies h2 {
+            color: #007bff;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .technologies ul {
+            padding: 0;
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .technologies ul li {
+            font-size: 16px;
+            color: #555;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fetisov Aleksandr</h1>
+        <div class="description">
+            <p>I am a Python developer with experience in creating high-quality software. I have been working in the IT industry for several years. I am passionate about creating innovative solutions that improve people's lives and make businesses easier to operate.</p>
+            <p>My expertise includes web application development, process automation, and scalable systems development. I have experience with Python, FastApi, Flask, PostgreSQL, MySQL, MongoDB, Docker, AWS, and many other technologies.</p>
+            <p>In addition, I am constantly learning and following new trends and developments in technology. I believe that training and skill development are key factors for success in the IT industry. I am always open to new challenges and ready to work with new technologies and tools.</p>
+            <p>If you have an interesting project or proposal, contact me and we will create something great together!</p>
+        </div>
+        <div class="experience">
+            <h2>Employment History</h2>
+            <ul>
+                <li class="expanded">
+                    Python developer at Prooftech IT (02.2023 - current time)
+                    <p>
+                        <strong>Responsibilities:</strong><br>
+                         - Development of project architecture.<br>
+                         - Development of high-load services for processing Big Data.<br>
+                         - Code review.<br>
+                         - Optimization of SQL queries.<br><br>
+                        <strong>Achievements:</strong><br>
+                        - Development of services for processing Big Data: Creation of efficient and scalable services capable of quickly processing and analyzing large volumes of data.<br>
+                         - Creation of a service for working with AI models: Implementation of intelligent services that use advanced algorithms and machine learning models to solve complex problems.<br>
+                         - Acceleration of services by 2 times: Optimization of the code and architecture of services, which led to a significant increase in performance and a decrease in response time.<br>
+                         - Optimization of queries in databases: Development of effective query algorithms and data structures, which increased the speed of executing queries to databases.<br>
+                         - Implementation of the testing process: Building a systematic approach to testing, including the creation of testing procedures and the implementation of automated tests.<br>
+                         - Development of a framework for the testing department: Creation of an integrated system based on Selenium, Appium, Jenkins and Allure, which made it possible to significantly simplify and automate testing processes and increase their transparency and efficiency.</p>
+                </li>
+                <li>
+                    Python developer at Neuro (08.2022 - 02.2023)
+                    <p>
+                        <strong>Responsibilities:</strong><br>
+                        - Development and creation/updating of internal platforms.<br>
+                         - Integration with other services and systems via RESTful API and Swagger.<br>
+                         - Managing communication with customers, ensuring high quality and satisfaction.<br>
+                         - Optimize and improve the performance of existing systems by optimizing code and using architectural patterns.<br>
+                         - Development of new functions and tools to improve functionality and efficiency.<br><br>
+                        <strong>Achievements:</strong><br>
+                        -Creating and customizing future API templates to simplify development and collaboration within the team.<br>
+                         - Development of a parser for creating the skeleton of a voice robot, speeding up the development process and reducing errors.<br>
+                         - Adding migrations to the system to ensure its stability and scalability.<br>
+                         - Improvement of middleware, increasing its reliability and security.<br>
+                         - Setting up automatic sending of reports after the dialogue to facilitate the analysis of user interaction.<br>
+                    </p>
+                </li>
+                <li>
+                    Python developer at Apirone (01.2021 - 08.2022)
+                    <p>
+                        <strong>Responsibilities:</strong><br>
+                        -Design and create system architecture, ensuring scalability and reliability.<br>
+                         - Organizing and conducting testing of developed software to ensure a high quality standard.<br>
+                         - Active participation in discussions on architectural solutions, choice of technologies and tools.<br>
+                         - Conduct code reviews, ensuring alignment with best practices and standards.<br>
+                         - Profiling and optimization of code to improve system performance.<br><br>
+                        <strong>Achievements:</strong><br>
+                        - Transition of the system to a microservice architecture, improving scalability and flexibility.<br>
+                         - Development of a service for collecting and analyzing system metrics, ensuring more effective monitoring and management.<br>
+                         - Optimize inefficient queries, increasing system responsiveness.<br>
+                         - Implementation of migrations to ensure seamless updates and changes to the system.<br>
+                         - Development of internal and external APIs that provide ease of integration with other systems.<br>
+                         - Improvement of the authorization and user identification service, increasing security and ease of use.<br>
+                         - Implementation of Black, Flake8, Mypy coding standards, ensuring consistent and clean code.<br>
+                         - Active work with blockchain and data scraping for additional functionality.<br>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="technologies">
+            <h2>Technologies</h2>
+            <ul>
+                <li>Python</li>
+                <li>FastApi</li>
+                <li>Flask</li>
+                <li>Selenium</li>
+                <li>Pandas</li>
+                <li>SQLAlchemy</li>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>RESTful API</li>
+                <li>Swagger</li>
+                <li>Aiohttp</li>
+                <li>Asynco</li>
+                <li>Asyncpg</li>
+                <li>WebSockets</li>
+                <li>Celery</li>
+                <li>Docker</li>
+                <li>Redis</li>
+                <li>Git</li>
+                <li>Linux</li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <div class="contact-item">
+                <a id="emailLink" href="mailto:fetis.dev@gmail.com" class="button">Email</a>
+            </div>
+            <div class="contact-item">
+                <a id="phoneLink" href="tel:+79518852044" class="button">Phone</a>
+            </div>
+            <div class="contact-item">
+                <a href="https://t.me/slyzi" class="button" target="_blank">Telegram</a>
+            </div>
+            <div class="contact-item">
+                <a href="https://github.com/Craxti" class="button" target="_blank">GitHub</a>
+            </div>
+            <div class="contact-item">
+                <a href="https://leetcode.com/slyzi" class="button" target="_blank">LeetCode</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript для развертывания описания при клике
+        document.addEventListener('DOMContentLoaded', function() {
+            const experienceItems = document.querySelectorAll('.experience ul li');
+            experienceItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const description = this.querySelector('p');
+                    if (description.style.display === 'block') {
+                        description.style.display = 'none';
+                    } else {
+                        description.style.display = 'block';
+                    }
+                });
+            });
+        });
+
+        // JavaScript для изменения текста ссылки "Email" на адрес почты при клике
+        document.addEventListener('DOMContentLoaded', function() {
+            const emailLink = document.getElementById('emailLink');
+            const originalText = emailLink.textContent;
+            const email = emailLink.href.replace('mailto:', '');
+
+            emailLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                if (emailLink.textContent === originalText) {
+                    emailLink.textContent = email;
+                } else {
+                    emailLink.textContent = originalText;
+                    const descriptions = document.querySelectorAll('.experience ul li p');
+                    descriptions.forEach(desc => {
+                        desc.style.display = 'none';
+                    });
+                }
+            });
+        });
+
+        // JavaScript для изменения текста ссылки "Phone" на адрес почты при клике
+        document.addEventListener('DOMContentLoaded', function() {
+            const emailLink = document.getElementById('phoneLink');
+            const originalText = emailLink.textContent;
+            const email = emailLink.href.replace('mailto:', '');
+
+            emailLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                if (emailLink.textContent === originalText) {
+                    emailLink.textContent = email;
+                } else {
+                    emailLink.textContent = originalText;
+                    const descriptions = document.querySelectorAll('.experience ul li p');
+                    descriptions.forEach(desc => {
+                        desc.style.display = 'none';
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
